@@ -1,0 +1,92 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a202c;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    color: #ff4b4b;
+  }
+  
+  .activeNavLink {
+    color: #ff4b4b;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #1a202c;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px; /* Add padding for better touch target */
+    cursor: pointer; /* Change cursor for button */
+}
+
+.navLink:hover {
+    color: #ff4b4b;
+}
+
+/* Additional styling for the button */
+button.navLink {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px; /* Add padding to the button */
+}
+
+button.navLink:hover {
+    color: #ff4b4b; /* Change color on hover */
+}
