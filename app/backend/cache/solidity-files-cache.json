@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/sanjeevvarma/gitcode/to-do-poly/backend/contracts/TodoList.sol": {
+      "lastModificationDate": 1729100274560,
+      "contentHash": "1955c4b90d203ddc0ed0eed69fd5fe36",
+      "sourceName": "contracts/TodoList.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "TodoList"
+      ]
+    }
+  }
+}
